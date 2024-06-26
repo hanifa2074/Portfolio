@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal portfolio website</title>
+        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
+        <script src="https://kit.fontawesome.com/18c387b122.js" crossorigin="anonymous"></script>   
+        
+        </head>
+    <body>
+    <div id="header">
+        <div class="container-navbar">
+            <nav class="nav-bar">
+               
+                <p class="logo">MH</p>
+                <ul id="sidemenu">
+            
+                    <li><a href="#header"class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="header-text c1">
+                    <p>Computer Science and Engineering</p>
+                    <h1>Hey There,<br>I'm <span>Mohamed Hanifa</span><br> </h1>
+                
+                    <a href="images/my-cv.png" download class="btn btn2">Download Cv</a>
+                </div>
+               
+            </div>
+        </div>
+    </div>  
+ <!-----------------about--------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img alt="user" src="images/userbg.jpg"  >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>I'm Mohamed Hanifa, a Computer Science Engineering student passionate about mastering programming languages and exploring emerging technologies. With a strong foundation in computer science principles, I aspire to contribute to innovative projects that advance technology and make a positive impact.</p>
+                    
+                    <h3 class="sub-title-2">Education</h3>
+                    <div class="tab-contents " id="educations">
+                        <ul>
+                            <li><span>SSLC - 2018 To 2019</span><br>Government Higher Secondary School,Thirukkogarnam,Pudukkottai,Tamilnadu</li>
+                            <li><span>HSC - 2019 To 2021</span><br>Government Higher Secondary School,Thirukkogarnam,Pudukkottai,Tamilnadu</li>
+                            <li><span>Degree* - 2021 To 2025 </span><br>Sudharsan Engineering College,Sathyamangalam,Pudukkottai,Tamilnadu
+                                <br> - BE in Computer Science and Engineering</li>
+                        </ul>
+                    </div>
+                   
+
+                    
+                </div>
+            </div>
+            
+
+            <a onclick="showHide()" class="btn">Read More</a>
+        </div>
+    </div>  
+</div> 
+<div id="academic" class="academic-hidden">
+    <div class="container">
+        <h1 class="sub-title">Course Works</h1>
+        <ul class="courses">
+            <li>Problem Solving and Python Programming</li>
+            <li>Programming in C</li>
+            <li>Foundations of Data Science</li>
+            <li>Data Structures</li>
+            <li>Object Oriented Programming</li>
+            <li>Artificial Intelligence and Machine Learning</li>
+            <li>Database Management Systems</li>
+            <li>Algorithms</li>
+            <li>Introduction to Operating Systems</li>
+            <li>Computer Networks</li>
+            <li>Compiler Design</li>
+            <li>Cryptography and Cyber Security</li>
+            <li>Distributed Computing</li>
+            <li>Web Technologies</li>
+            <li>Object Oriented Software Engineering</li>
+            <li>Embedded Systems and IoT</li>
+            <li>Network Security</li>
+            <li>Data Warehousing</li>
+            <li>Cloud Services Management</li>
+            <li>Storage Technologies</li>
+        </ul>
+    </div>
+
+</div>
+
+
+<!-- ---------------------skills---------------------- -->
+<div id="skills">
+    <div class="container">
+        <h1 class="sub-title sub-title-3">My Skills</h1>
+        <div class="skill-list">
+            <div class="skill-box">
+                <h3>Programming Language</h3>
+                 <p>C</p>
+                 <p>Java</p>
+                 <p>Python</p>
+             </div>
+            
+             <div class="skill-box">
+                <h3>Web Development</h3>
+                <p>Html</p>
+                <p>Css</p>
+                <p>JavaScript</p>
+            </div>
+             
+             <div class="skill-box">
+                 <h3>Machine Learning / Data Science</h3>
+                 <p> Python for Data Science </p>
+                 <p> Pandas, NumPy, Matplotlib </p>
+             </div>
+ 
+             <div class="skill-box">
+                <h3>Software Tools</h3>
+                 <p>Version Control: Git, GitHub </p>
+                 <p>IDEs: Visual Studio Code, IntelliJ IDEA, Android Studio</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- 
+--------------------services--------------
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-regular fa-image"></i>
+                <h2>Graphic Designing</h2>
+                <p>gfy jhwguy rert  kjewjgrv hvvcxbnvg olkoi addrb</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div> 
+                <i class="fa-solid fa-file-powerpoint"></i>
+                <h2>MS Powerpoint</h2>
+                <p>gfy jhwguy rert  kjewjgrv hvvcxbnvg olkoi addrb</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div> 
+                <i class="fas fa-code"></i> 
+                <h2>Web Design</h2>
+                <p>gfy jhwguy rert  kjewjgrv hvvcxbnvg olkoi addrb</p>
+                <a href="#">Learn more</a>
+            </div>        
+        </div>
+
+    </div>
+</div>
+ -->
+<!----------------portfolio----->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title sub-title-3">My Work</h1>
+        <div class="work-list">
+            <div class="work work1">
+                <img alt="project1" src="images/project1.png">
+                <div class="layer">
+                    <h3>Personal Portfolio</h3>
+                    <p>""This is a personal portfolio website designed to showcase my skills and works. It features detailed descriptions of my works</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work work2">
+                <img alt="project2" src="images/project0.jpg">
+                <div class="layer">
+                    <h3></h3>
+                    <!-- <p>the gis abaosic takpoiyv bglieyrbnvasuygk        febkageg       bteyrtyeyry89474k,  yutwe6ffvdvrfyr </p> -->
+                    <!-- <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                </div>
+            </div>
+            <div class="work work3">
+                <img alt="project3" src="images/project0.jpg"><div class="layer">
+                    <h3></h3>
+                    <!-- <p>the gis abaosic takpoiyv bglieyrbnvasuygk        febkageg       bteyrtyeyry89474k,  yutwe6ffvdvrfyr </p>-->
+                    <!-- <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                </div>
+            </div>
+        </div>
+        <!-- <a href="#" class="btn">See more</a> -->
+    </div>
+</div>
+<!--------contact----------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1> 
+                <p><i class="fa-solid fa-paper-plane"></i>hanifa2074@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>894 0283678</p>
+                <div class="social-icon">
+                    <a href="https://linkedin.com/in/hanifa2074" target="_blank"><i class="fab fa-linkedin" target="_blank"></i></a>
+                    <a href="https://facebook.com/hanifa2074" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://instagram.com/md_hanifa2074" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/8940283678" target="_blank" ><i class="fab fa-whatsapp" target="_blank"></i></a>
+                                   
+                </div>
+                <a href="images/my-cv.png" download class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input  type="text" name="Name" placeholder="Your Name" required>
+                    <input  type="email" name="email" placeholder="Your email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+
+                </form>
+
+                <span id="msg"></span>
+
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright ©Mohamed Hanifa.<i class="fa-solid fa-heart"></i> Only for personal use </p> 
+    </div>
+</div>
+
+
+
+    
+
+
+    <script>
+        var academic = document.getElementById('academic');
+        var display=1;
+        function showHide()
+        {
+            if(display==1){
+                academic.style.display = 'block';
+                display = 0;
+            }
+            else{
+                academic.style.display = 'none'
+                display = 1;
+            }
+        }
+        
+
+    </script>
+
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwdsbXVa2YvRyvxtAwRveyTEx2dmE1bU2h9ZNbXmZgHNMoe7UR7MSpVVawFEfveAbIz/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response =>{
+                msg.innerHTML = "Message Sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            } )
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script> 
+     
+
+    </body>
+    </html>
