@@ -73,8 +73,8 @@ your-portfolio-repo/
 
 Feel free to reach out to me with any questions or feedback.
 
-- **Email**: [your-email@example.com](mailto:hanifa2074@gmail.com)
-- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/hanifa2074)
+- **Email**: [hanifa2074@gmail.com](mailto:hanifa2074@gmail.com)
+- **LinkedIn**: [hanifa2074](https://www.linkedin.com/in/hanifa2074)
 
 ## License
 
