@@ -21,6 +21,8 @@
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#portfolio">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
+                    <!-- <button id="theme-toggle">Toggle Theme</button> -->
+
                     <i class="fas fa-times" onclick="closemenu()"></i>
                 </ul>
                 <i class="fas fa-bars" onclick="openmenu()"></i>
@@ -33,7 +35,7 @@
                     <p>Computer Science and Engineering</p>
                     <h1>Hey There,<br>I'm <span>Mohamed Hanifa</span><br> </h1>
                 
-                    <a href="images/my-cv2.jpg" download class="btn btn2">Download Cv</a>
+                    <a href="images/Mohamed Hanifa B.pdf" download class="btn btn2">Download Cv</a>
                 </div>
                
             </div>
@@ -236,6 +238,27 @@
 
 
     
+    <script>
+        const toggleButton = document.getElementById('theme-toggle');
+        const body = document.body;
+
+        toggleButton.addEventListener('click', () => {
+             body.classList.toggle('light-theme');
+
+         // Save the current theme to localStorage so it persists across page reloads
+        const theme = body.classList.contains('light-theme') ? 'light' : 'dark';
+            localStorage.setItem('theme', theme);
+        });
+
+        // Load the saved theme on page load
+        window.addEventListener('DOMContentLoaded', () => {
+        const savedTheme = localStorage.getItem('theme') || 'dark';
+        if (savedTheme === 'light') {
+            body.classList.add('light-theme');
+        }
+        });
+
+    </script>
 
 
     <script>
@@ -287,6 +310,7 @@
         })
       </script> 
      
+
 
     </body>
     </html>
